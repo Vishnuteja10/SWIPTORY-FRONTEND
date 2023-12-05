@@ -1,0 +1,127 @@
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 10vh;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.appName{
+    font-size: 35px;
+    margin-left: 3vw;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.rightBlock{
+    margin-right: 2vw;
+}
+
+.register{
+    width: 7vw;
+    height: 5vh;
+    border-radius: 20px;
+    color: white;
+    background-color: #FF7373;
+    cursor: pointer;
+}
+
+.login{
+    margin-left: 1vw;
+    width: 7vw;
+    height: 5vh;
+    border-radius: 20px;
+    color: white;
+    background-color:  #73ABFF;
+    cursor: pointer;
+}
+
+.additionalDetails{
+    display: flex;
+    margin-right: 3vw;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bookmarks{
+    width: 12vw;
+    height: 5vh;
+    border-radius: 20px;
+    font-size: 15px;
+    color: white;
+    background-color: #FF7373;
+    cursor: pointer;
+}
+
+.addStory{
+    margin-left: 1vw;
+    width: 8vw;
+    height: 5vh;
+    font-size: 15px;
+    border-radius: 20px;
+    color: white;
+    background-color: #FF7373;
+    cursor: pointer;
+}
+
+.userIconContainer{
+    margin-left: 1vw;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.userIconContainer img{
+    width: 50px;
+    height: 50px;
+}
+
+.bookmarksContainer{
+    display: flex;
+    align-items: center;
+}
+
+.homeIconContainer{
+    margin-left: 1vw;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.homeIconContainer .home{
+  width: 40px;
+  height: 30px;
+}
+
+.dropdown{
+    position: absolute;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    width: 12vw;
+    top:9vh;
+    left: 88vw;
+    background-color: white;
+    box-shadow: 3px 3px 6px 0 rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+
+.userName{
+    margin-left: 3vw;
+    margin-top: 5px;
+    font-size: 23px;
+}
+
+.logout{
+    margin-left: 2vw;
+    margin-top: 10px;
+    width: 7vw;
+    height: 4vh;
+    font-size: 15px;
+    border-radius: 20px;
+    color: white;
+    background-color: #FF7373;
+    cursor: pointer;
+}

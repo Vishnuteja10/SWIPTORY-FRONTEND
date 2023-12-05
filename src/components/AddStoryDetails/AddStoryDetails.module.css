@@ -1,0 +1,331 @@
+
+
+.outerBlock{
+    width: 40vw;
+    height: 65vh;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.closeIcon{
+    width: 2vw;
+    height: 4vh;
+    border-radius: 50%;
+    margin-left: 36vw;
+    margin-top: 1vh;
+    font-size: 1vw;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.closeContainer p{
+    margin-left: 30vw;
+    color: gray;
+}
+
+.slides{
+    margin-left: 3vw;
+    margin-right: 3vw;
+    display: flex;
+    align-items: center;
+}
+
+.slideNumber{
+    width: 4vw;
+    height: 6vh;
+    margin-left: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 0 0 5px gray;
+    position: relative;
+    cursor: default;
+}
+
+.slide{
+    position: relative;
+}
+
+.removeSlide{
+    position: absolute;
+    top: 0.3vh;
+    left: 3.5vw;
+    width: 0.8vw;
+    height: 1.4vh;
+    font-size: 1vh;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+    cursor: pointer;
+}
+
+.storyContent{
+    margin-top: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headingContainer{
+   display: flex;
+   justify-content: center;
+}
+
+.heading{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.headingValue{
+    margin-left: 1vw;
+}
+
+.textContent{
+   margin-left: 3vw;
+   width: 20vw;
+   height: 4vh;
+}
+
+.textArea{
+    width: 20vw;
+    height: 9vh;
+    margin-left: 2vw;
+}
+
+.descriptionContainer{
+    margin-top: 3vh;
+    display: flex;
+    justify-content: center;
+}
+
+.description{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.imageContainer{
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+}
+
+.image{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.imageContainer input{
+    margin-left: 5.2vw;
+}
+
+.categoryContainer{
+    margin-top: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.category{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.categoryValue{
+    margin-left: 3vw;
+}
+
+.categoryValue select{
+    width: 20vw;
+    height: 4vh;
+    font-size: 18px;
+}
+
+option{
+    font-weight: 600;
+}
+
+.buttonsContainer{
+    margin-left: 6vw;
+    margin-right: 6vw;
+    margin-top: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.prev{
+    width: 5vw;
+    height: 4vh;
+    font-size: 15px;
+    color: white;
+    background-color:#7EFF73;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.next{
+    margin-left: 1vw;
+    width: 5vw;
+    height: 4vh;
+    font-size: 15px;
+    color: white;
+    background-color:#73ABFF;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.post{
+    width: 5vw;
+    height: 4vh;
+    font-size: 15px;
+    color: white;
+    background-color:#FF7373;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+@media (max-width: 500px)  {
+
+    .outerBlock{
+        width: 80vw;
+        height: 70vh;
+        background-color: white;
+        border-radius: 20px;
+    }
+
+    .closeContainer{
+       padding-top: 1vh;
+    }
+
+    .closeIcon{
+        width: 5vw;
+        margin-left: 70vw;
+        font-size: 2vh;
+    }
+
+    .icon{
+        font-size: 3vh;
+    }
+
+    .titleContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .titleContainer p{
+        padding: 0;
+        margin: 0;
+    }
+    
+   .slides{
+    margin-top: 1vh;
+    display: block;
+   }
+
+   .removeSlide{
+    margin-left: 2.5vw;
+     width: 2vw;
+     cursor: pointer;
+   }
+
+   .icon{
+     font-size: 8px;
+   }
+
+   .formContainer{
+    display: flex;
+   }
+
+   .slideNumber{
+    margin-top: 1vh;
+      width: 10vw;
+      font-size: 3vw;
+   }
+
+   .storyContent{
+     margin-top: 2vh;
+   }
+
+   .headingContainer{
+    display: block;
+   }
+
+   .heading{
+    font-size: 15px;
+    margin-left: 2vw;
+   }
+
+   .headingValue input{
+     width: 45vw;
+     margin-left: 1vw;
+   }
+
+   .descriptionContainer{
+    display: block;
+   }
+
+   .description{
+    font-size: 15px;
+    margin-left: 2vw;
+   }
+
+   .descriptionValue textarea{
+    width: 45vw;
+    margin-left: 2vw;
+   }
+
+   .imageContainer{
+    display: block;
+   }
+
+   .image{
+    font-size: 15px;
+    margin-left: 2vw;
+   }
+
+   .imageValue input{
+    width: 45vw;
+    margin-left: 2vw;
+   }
+
+   .categoryContainer{
+    display: block;
+   }
+
+   .category{
+    font-size: 15px;
+    margin-left: 2vw;
+   }
+
+   .categoryValue select{
+    width: 45vw;
+    font-size: 12px;
+   }
+
+   .categoryValue option{
+    font-size: 12px;
+   
+   }
+
+   .description{
+    font-size: 15px;
+    font-weight: 600;
+   }
+
+   .buttonsContainer{
+    margin-top: 20px;
+     justify-content: center;
+     padding-bottom: 3vh;
+   }
+
+   .post{
+    width: 20vw;
+   }
+}

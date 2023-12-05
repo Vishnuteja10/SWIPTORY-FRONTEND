@@ -1,13 +1,30 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import reportWebVitals from "./reportWebVitals";
+import { Provider } from "./context/useContext";
+import Home from "./Pages/Home/Home";
+import ViewSharedStory from "./Pages/ViewSharedStory/ViewSharedStory";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home />,
+  },
+  {
+    path: "/viewstory",
+    element: <ViewSharedStory />,
+  },
+]);
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <Provider>
+      <RouterProvider router={router} />
+    </Provider>
   </React.StrictMode>
 );
 

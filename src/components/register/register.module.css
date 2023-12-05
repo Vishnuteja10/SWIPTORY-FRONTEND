@@ -1,0 +1,213 @@
+
+.outerBox{
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-top: 8vw;
+    width: 50vw;
+    height: 60vh;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.exit{
+    margin-left: 38vw;
+    width: 25px;
+    height: 25px;
+    border: 1px solid red;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.main{
+    margin: 4vw;
+    width: 40vw;
+    height: 40vh;
+    
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.exit span{
+    color: red;
+}
+
+.field{
+    display: flex;
+    margin-top: 5vh;
+    justify-content: center;
+}
+
+.label{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.inputContainer{
+    margin-left: 5vw;
+}
+
+.inputContainer input{
+    height: 4vh;
+    width: 18vw;
+    font-size: 20px;
+    outline: none;
+}
+
+
+.passwordContainer{
+    margin-left: 5vw;
+    height: 4vh;
+    width: 18vw;
+    border: 1px solid gray;
+}
+
+.passwordContainer input{
+    border: none;
+    outline: none;
+    height: 3vh;
+    width: 14vw;
+    font-size: 18px;
+    margin-right: 6px;
+}
+
+.passwordContainer span{
+    height: 2vh;
+}
+
+.register{
+    display: flex;
+    margin-top: 6vh;
+    justify-content: center;
+}
+
+.register button{
+    height: 4vh;
+    width: 8vw;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #73ABFF;
+    color: white;
+}
+
+.errorContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+    position: relative;
+}
+
+.error{
+    position: absolute;
+    margin-top: 2px;
+    color: red;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: 2;
+    background-color: rgb(0,0,0,0.8);
+}
+
+@media (max-width: 800px) {
+  
+    .outerBox{
+        margin-left: 10vw;
+        margin-right: 10vw;
+        margin-top: 25vw;
+        width: 80vw;
+        height: 60vh;
+        border: 2px solid gray;
+        border-radius: 10px;
+        background-color: white;
+    }
+
+    .exit{
+        margin-top: 2vh;
+        margin-left: 68vw;
+        width: 24px;
+        height: 24px;
+        border: 1px solid red;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    .main{
+        margin: 0vw;
+        width: 75vw;
+        height: 60vh;
+        
+    }
+
+    .header{
+        margin-top: 2vh;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    
+    .field{
+        margin-left: 3vw;
+        display: block;
+        margin-top: 6vh;
+        justify-content: center;
+    }
+
+    .label{
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .inputContainer{
+        margin-left: 1vw;
+    }
+
+    .inputContainer input{
+        height: 4vh;
+        width: 70vw;
+        font-size: 15px;
+       
+    }
+
+    .register button{
+        height: 5vh;
+        width: 25vw;
+        font-size: 15px;   
+    }
+
+    .passwordContainer{
+        margin-left: 1vw;
+        height: 4vh;
+        width: 70vw;
+        border: 1px solid gray;
+    }
+    
+    .passwordContainer input{
+        height: 3vh;
+        width: 60vw;
+        font-size: 15px;
+        margin-right: 6px;
+    }
+    
+    .passwordContainer span{
+        height: 2vh;
+    }
+
+    .error{
+        font-size: 10px;
+    }
+
+}

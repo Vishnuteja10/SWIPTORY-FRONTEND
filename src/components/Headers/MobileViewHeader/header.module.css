@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 10vh;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position:relative;
+    
+}
+
+.leftBlock{
+    margin-left: 2vw;
+    display: flex;
+    align-items: center;
+}
+
+.appName{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.rightBlock{
+    margin-right: 2vw;
+}
+
+.dropDown{
+    position: absolute;
+    top: 10vh;
+    width: 100vw;
+    background-color: white;
+    z-index: 2;
+    padding-bottom: 6vh;
+}
+
+.exitContainer{
+    display: flex;
+    margin-top: 2vh;
+}
+
+.userdetails{
+    display: flex;
+    align-items: center;
+    margin-left: 30vw;
+}
+
+.userdetails img{
+    width: 50px;
+    height: 50px;
+}
+
+.userdetails span{
+    margin-left: 3vw;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.exit{
+   margin-left: 90vw;
+}
+
+.loginContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3vh;
+}
+
+.login {
+    width: 20vw;
+    height: 5vh;
+    font-size: 15px;
+    border-radius: 20px;
+    color: white;
+    background-color: #FF7373;
+    cursor: pointer;
+}
+
+.register{
+    margin-top: 3vh;
+    width: 20vw;
+    height: 5vh;
+    font-size: 15px;
+    border-radius: 20px;
+    color: white;
+    background-color: #FF7373;
+    cursor: pointer;
+}
+
+.loggedInUserDetails{
+    margin-top: 2vh;
+    display: flex;
+    margin-left: 35vw;
+    align-items: center;
+}
+
+.loggedInUserDetails img{
+    width: 50px;
+    height: 50px;
+}
+
+.userName{
+    margin-left: 2vw;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.exitIcon{
+    margin-left: 90vw;
+}
+
+
+.x_icon{
+    margin-top: 5px;
+    margin-left: 95vw;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.homeItems{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.homeItems button{
+    margin-top: 3vh;
+    width: 20vw;
+    height: 5vh;
+    font-size: 15px;
+    border-radius: 20px;
+    color: white;
+    background-color: #FF7373;
+    cursor: pointer;
+    padding: auto;
+}
+
+
+@media (max-width: 500px){
+    
+.homeItems button{
+    margin-top: 3vh;
+    width: 32vw;
+    height: 5vh;
+    font-size: 12px;
+}
+
+.login {
+    width: 32vw;
+    height: 5vh;
+    font-size: 12px;
+}
+
+.register{
+    width: 32vw;
+    height: 5vh;
+    font-size: 12px;
+}
+    
+}
